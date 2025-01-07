@@ -1,0 +1,29 @@
+{
+  "synthetic_function_name": "sourcing",
+  "num_of_arms": 32,
+  "running_time": 2,
+  "noise_sd": 0.02,
+  "num_of_batches": 10,
+  "converge_time": 15,
+  "reps": 25,
+  "strategies": {
+    "quickbo_icm_rank2": {
+      "design_name": "quickbo",
+      "model_name": "icm_rank2",
+      "num_of_long_run_arms": 16
+    },
+    "quickbo_ta_gp": {
+      "design_name": "quickbo",
+      "model_name": "ta_gp",
+      "num_of_long_run_arms": 16
+    },
+    "quickbo_ta_gp_all_proxies": {
+      "design_name": "quickbo",
+      "model_name": "ta_gp_all_proxies",
+      "num_of_long_run_arms": 16
+    },
+    "standard_bo": {
+      "design_name": "standard"
+    }
+  }
+}
