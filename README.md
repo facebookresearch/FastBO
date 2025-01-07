@@ -14,3 +14,6 @@ The `benchmarks/` directory contains code for running the numerical experiments 
 ```bash
 python3 run_benchmark benchmark_spec.json
 ```
+
+## License
+This code is MIT Licensed, as found in the LICENSE file. 
