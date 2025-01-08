@@ -4,4 +4,3 @@ matplotlib
 scipy
 botorch
 ax-platform
-scikit-learn==1.1.3
